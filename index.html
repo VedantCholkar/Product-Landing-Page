@@ -12,7 +12,7 @@
 <body>
     <header id="header">
         <div class="header-logo">
-            <img src="/assets/coffee.png" alt="coffee-logo" id="header-img">
+            <img src="./assets/coffee.png" alt="coffee-logo" id="header-img">
             <h1 class="nav-logo">Ultimate Coffee Shop</h1>
         </div>
         <nav id="nav-bar">
@@ -24,7 +24,11 @@
         </nav>
     </header>
     <section id="hero">
-        <h1>Stay updated for discounts!</h1>
+        <h1 class="hero-title">Stay updated for discounts!</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter your email address">
+            <input id="submit" type="submit" value="Access Now!">
+        </form>
     </section>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
