@@ -33,6 +33,10 @@ body {
     padding: 1rem;
     background-color: var(--theme-color);
     color: var(--text-color);
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
 }
 
 .header-logo {
@@ -66,11 +70,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 10rem;
 }
 
 .hero-title {
-    margin: 0;
     font-size: 2.5rem;
     font-weight: 200;
 }
@@ -102,4 +105,143 @@ body {
     border: 1px solid var(--theme-color);
     padding: 0.5rem;
     cursor: pointer;
+}
+
+
+.coffee-benefits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px;
+    background-color: var(--theme-color);
+    color: var(--text-color);
+    flex-wrap: wrap;
+}
+
+.coffee-benefits-header {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.benefits-of-coffee-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-of-coffee-image {
+    width: 100%;
+    border-radius: 20px;
+    max-width: 300px;
+    height: auto;
+}
+
+.benefits-of-coffee-des {
+    font-size: 24px;
+    margin-top: 16px;
+    max-width: 500px;
+}
+
+.benefits-of-coffee {
+    display: flex;
+    gap: 100px;
+}
+
+.how-to-coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.htc-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#pricing-model {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--theme-color);
+    padding: 5rem;
+    color: var(--text-color);
+}
+
+.pm-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.pm-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid var(--text-color);
+}
+
+.pm-card-title {
+    font-size: 2rem;
+    padding: 1rem 7rem 1rem 7rem;
+    background-color: hsl(6, 46%, 37%);
+}
+
+.pm-price {
+    font-size: 1.8rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.pm-des {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    font-size: 1.2rem;
+}
+
+.pm-select {
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: var(--text-color);
+    background-color: var(--theme-color);
+    transition: 0.3s ease-out;
+    border: 1px solid var(--text-color);
+    border-bottom: none;
+}
+
+.pm-select:hover {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.pricing-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #8c4239;
+}
+
+.footer-text {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px){
+    .nav-link {
+        border: none;
+    }
 }
